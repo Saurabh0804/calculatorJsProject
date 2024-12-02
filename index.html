@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+div  {
+ border-radius: 7px solid red;
+ /* border: 5px solid red ; */
+ align-items: center;
+ font-size: 80px;
+ /* margin-top: 5%; */
+ padding: 20px 0;
+ border-radius: 100px;
+ background-color: aquamarine;
+
+ 
+ 
+}
+ body {
+     text-align:center;
+     /* align-items: center; */
+     /* margin-top: 10%; */
+     font-size: 70px;
+     /* border: 3px solid red; */background-color: darkgray;
+    font-weight: 600;
+}
+button{
+    font-size: 40px;
+    height: 60px;
+    width: 70px;
+}
+p{
+    margin: 10px auto;
+    padding:25px 20px;
+    width: 350px;
+    font-size: 35px;
+    border: 1px solid #9b9b9b;
+
+}
+h1{
+    animation-delay: 0.4s;
+    animation: bounce 2s ease infinite;
+    margin-top: 0;
+}
+    @keyframes bounce{
+    0%, 100% {
+        transform: translateY(400);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+}
+</style>
+</head>
+<body >
+<h1>CALCULATOR</h1>
+    <div id="call">
+        <!-- <input type="text" ><br> -->
+         <p id="text"></p>
+       
+        <button class="digit"> 1</button>
+        <button class="digit">2</button>
+        <button class="digit">3</button>
+        <button class="operator">+</button><br>
+        <button class="digit">4</button>
+        <button class="digit">5</button>
+        <button class="digit">6</button>
+        <button class="operator">-</button><br>
+        <button class="digit">7</button>
+        <button class="digit">8</button>
+        <button class="digit">9</button>
+        <button class="operator">*</button><br>
+        <button class="digit">0</button>
+        <button class="operator">C</button>
+        <button class="operator">=</button>
+        <button class="operator">/</button><br>
+        
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
